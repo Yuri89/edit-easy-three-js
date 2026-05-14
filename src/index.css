@@ -1,0 +1,2 @@
+/* Liquid Glass — base reset (actual styles in src/styles/studio.css) */
+html, body { height: 100%; overflow: hidden; }
