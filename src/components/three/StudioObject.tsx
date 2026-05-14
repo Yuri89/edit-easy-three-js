@@ -285,8 +285,7 @@ export function StudioObject({ obj }: Props) {
         >
           <Text3D
             ref={meshRef as React.Ref<any>}
-            font="/fonts/helvetiker_bold.typeface.json"
-            size={obj.textSize ?? 0.6}
+            font={`${import.meta.env.BASE_URL}fonts/helvetiker_bold.typeface.json`}            size={obj.textSize ?? 0.6}
             height={obj.textDepth ?? 0.2}
             curveSegments={8}
             bevelEnabled
